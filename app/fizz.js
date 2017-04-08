@@ -20,7 +20,7 @@ module.exports = {
 
 		else if(num % 3 == 0){
 
-			return "Fiz";
+			return "Fizz";
 
 		}
 
