@@ -18,7 +18,7 @@
   }
 
   if (num < 0) {
-    return "negative integers can not be prime";
+    return "negative integers can not be prim";
   }
   else if (num === 1) {
     return '1 is not a prime number';  
