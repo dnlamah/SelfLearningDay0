@@ -16,7 +16,7 @@ var myApp = require('../app/arithgeo.js');
  expect(myApp.aritGeo([5, 11, 17, 23, 29, 35, 41])).toEqual('Arithmetic');     
  });     
  it("should return `Arithmetic` for [15, 10, 5, 0, -5, -10]", function() {       
- expect(myApp.aritGeo([15, 10, 5, 0, -5, -10])).toEqual('Arithmetic');      
+ expect(myApp.aritGeo([15, 10, 5, 0, -5, -10])).toEqual('arithmetic');      
  });   
  });   
  describe("Case for a geometric sequence", function() {      
