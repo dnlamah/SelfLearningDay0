@@ -2,7 +2,7 @@
 var myApp = require('../app/fizz.js');
 describe("Fizz Buzz tests ", function() {  
 it("should return `Fizz` for number divisible by 3", function() {    
-expect(myApp.fizzBuzz(3)).toBe('Fizz');  
+expect(myApp.fizzBuzz(3)).toBe('Fiz');  
 }); 
  it("should return `Buzz` for number divisible by 5", function() {    
  expect(myApp.fizzBuzz(5)).toBe('Buzz');  
