@@ -2,12 +2,7 @@
 var myApp = require('../app/arithgeo.js');
 (function(){  
 'use strict'; 
- describe("Determine the sequence of an array of numbers: ", function() {    
- describe("Case for an empty array", function() {     
- it("should return 0 for an empty array", function() {       
- expect(myApp.aritGeo([])).toEqual(0);      
- });   
- });    
+    
  describe("Case for an arithmetic sequence", function() {     
  it("should return `Arithmetic` for [2, 4, 6, 8, 10]", function() {       
  expect(myApp.aritGeo([2, 4, 6, 8, 10])).toEqual('Arithmetic');      
