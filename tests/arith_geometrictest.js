@@ -3,11 +3,7 @@ var myApp = require('../app/arithgeo.js');
 (function(){  
 'use strict'; 
  describe("Determine the sequence of an array of numbers: ", function() {    
- describe("Case for an empty array", function() {     
- it("should return 0 for an empty array", function() {       
- expect(myApp.aritGeo([])).toEqual(0);      
- });   
- });    
+     
  describe("Case for an arithmetic sequence", function() {     
  it("should return `Arithmetic` for [2, 4, 6, 8, 10]", function() {       
  expect(myApp.aritGeo([2, 4, 6, 8, 10])).toEqual('Arithmetic');      
@@ -29,6 +25,9 @@ var myApp = require('../app/arithgeo.js');
  it("should return `Geometric` for [−128, 64, −32, 16, −8]", function() {       
  expect(myApp.aritGeo([-128, 64, -32, 16, -8])).toEqual('Geometric');     
  });  
+ it("should return `Geometric` for [1, 2, 4, 8, 16]", function() {       
+ expect(myApp.aritGeo([1, 2, 4, 8, 16])).toEqual('Geometric');     
+ }); 
  });   
  describe("Case for neither arithmetic nor geometric sequence", function() {    
  it("should return -1 for [1, 2, 3, 5, 8]", function() {       
