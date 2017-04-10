@@ -22,6 +22,12 @@ for(var i = 0; i < arr.length - 1; i++)
       geo = false;
     
 }
+ if (arr.length === 0) {
+
+   	  return 0;
+
+   	}
+
 
 if(arith === true)
     return "Arithmetic";
